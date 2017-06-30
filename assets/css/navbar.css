@@ -1,0 +1,230 @@
+a:hover {
+    text-decoration: none;
+}
+
+.open {
+    position: fixed;
+    top: 0px;
+    right: 40px;
+    width: 40px;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+    opacity: 1.0;
+}
+
+.open:hover {
+    opacity: 1.0;
+}
+
+.open span {
+    display: block;
+    float: left;
+    clear: both;
+    height: 4px;
+    width: 30px;
+    
+    background-color: black;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    opacity: 0.9;
+}
+
+.open span:nth-child(1) {
+    margin-top: 10px;
+    z-index: 9;
+}
+
+.open span:nth-child(2) {
+    margin-top: 25px;
+    width:40px;
+    
+}
+
+.open span:nth-child(3) {
+    margin-top: 40px;
+}
+
+.sub-menu {
+    transition: all 0.3s cubic-bezier(0, 0, .58, 1);
+    height: 0;
+    width: 0;
+    right: 0;
+    top: -35px;
+    position: absolute;
+    background-color: black;
+    border-radius: 0%;
+    z-index: 18;
+    overflow: hidden;
+    
+}
+
+.sub-menu li {
+    display: block;
+    font-weight: bold;
+    clear: both;
+    height: auto;
+    padding: 10px;
+    margin-right: -160px;
+    transition: all 0.1s cubic-bezier(0, 0, .58, 1);
+    font-size: 36px;
+    font-family: Sintony;
+    line-height: 0.83;
+}
+
+.sub-menu li:first-child {
+    margin-top: 180px;
+}
+
+.sub-menu li:nth-child(1) {
+    -webkit-transition-delay: 0.05s;
+}
+
+.sub-menu li:nth-child(2) {
+    -webkit-transition-delay: 0.10s;
+}
+
+.sub-menu li:nth-child(3) {
+    -webkit-transition-delay: 0.15s;
+}
+
+.sub-menu li:nth-child(4) {
+    -webkit-transition-delay: 0.20s;
+}
+
+.sub-menu li:nth-child(5) {
+    -webkit-transition-delay: 0.25s;
+}
+
+.sub-menu li a {
+    color: #fff;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-family: Sintony;
+    line-height: 0.83;
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 15px;
+}
+.sub-menu li a:hover {
+    color: #f31c31;
+    transition: all 0.2s linear;
+    
+}
+.sub-menu {
+    padding-left: 50px !important;
+}
+.oppenned .sub-menu {
+    opacity: 1.0;
+    height: 100vh;
+    width: 500px;
+}
+
+.oppenned span:nth-child(2) {
+    overflow: visible;
+    height: 100vh;
+}
+
+.oppenned span:nth-child(1),
+.oppenned span:nth-child(3) {
+    z-index: 100;
+    transform: rotate(45deg);
+    background-color: white !important;
+    
+}
+
+.oppenned span:nth-child(1) {
+    transform: rotate(45deg) translateY(12px) translateX(12px);
+    background-color: white !important;
+}
+
+.oppenned span:nth-child(2) {
+    height: 100vh;
+    width: 500px;
+    right: -160px;
+    
+    border-radius: 0%;
+    background-color: black !important;
+}
+
+.oppenned span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-10px) translateX(10px);
+    
+}
+
+.oppenned li {
+    margin-right: 168px;
+}
+
+.Linkedin {
+    font-weight: normal !important;
+    font-family: Sintony;
+    font-size: 20px !important;
+    line-height: 1.5;
+    
+    top: 200px;
+    margin-left: -260px;
+    position: relative;
+    color: white !important; 
+}
+
+.facebook {
+    font-weight: normal !important;
+    color: white !important;
+    font-family: Sintony;
+    font-size: 20px !important;
+    line-height: 1.5;
+    
+    top: 200px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.medium {
+    font-weight: normal !important;
+    color: white !important;
+    font-family: Sintony;
+    font-size: 20px !important;
+    line-height: 1.5;
+    color: #ffffff;
+    top: 250px;
+    margin-left: -180px;
+    position: relative;
+}
+.dribble {
+    font-weight: normal !important;
+    color: white !important;
+    font-family: Sintony;
+    font-size: 20px !important;
+    line-height: 1.5;
+    
+    top: 250px;
+    margin-left: 20px;
+    position: relative;
+}
+.instagram {
+    font-weight: normal !important;
+    color: white !important;
+    font-family: Sintony;
+    font-size: 20px !important;
+    line-height: 1.5;
+    color: #ffffff;
+    top: 300px;
+    margin-left: -160px;
+    position: relative;
+}
+.twitter {
+    font-weight: normal !important;
+    color: white !important;
+    font-family: Sintony;
+    font-size: 20px !important;
+    line-height: 1.5;
+    
+    top:300px;
+    margin-left: 20px;
+    position: relative;
+}

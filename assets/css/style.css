@@ -1,0 +1,948 @@
+@media (min-width: 768px) { 
+    .text-app-dev{
+       margin:auto !important;
+        margin-top: 70px !important;
+    }
+    .app-dev-img{
+        margin:auto !important;
+    }
+    .text-app-design{
+        margin:auto !important;
+        margin-right:0px !important;
+        margin-top:20px !important;
+    }
+    .third-anchor{
+        margin-left:4350px !important;
+    }
+    .text-app-iot{
+        margin:auto !important;
+        margin-right:0px !important;
+        margin-top:20px !important;
+    }
+    .fourth-anchor{
+        margin-left:6700px !important;
+    }
+    .text-app-school{
+        margin:auto !important;
+        margin-right:0px !important;
+        margin-top:20px !important;
+    }
+    .bubble18{
+        bottom:1500px !important;
+    }
+    .bubble6-first-page{
+        bottom:1200px !important;
+    }
+    .bubble7-first-page{
+        bottom:1300px !important;
+    }
+    .bubble5-first-page{
+        bottom:1200px !important;
+    }
+    .bubble19{
+        bottom:1400px !important;
+    }
+    .second-anchor{
+        margin-left:2600px !important;
+    }
+}
+@media (min-width: 992px) { 
+    .text-app-dev{
+       margin:auto !important;
+       margin-left:0px !important;
+    }
+    .app-dev-img{
+        margin:auto !important;
+    }
+    .text-app-design{
+        margin: auto !important;
+        margin-left: 0px !important;
+        
+    }
+    .third-anchor{
+        margin-left:4800px !important;
+    }
+    .text-app-iot{
+        margin:auto !important;
+        margin-left:0px !important;
+       
+    }
+    .fourth-anchor{
+        margin-left:7400px !important;
+    }
+    .text-app-school{
+        margin:auto !important;
+        margin-left:0px !important;
+       
+    }
+    .bubble18{
+        bottom:500px !important;
+        margin-left:1000px !important
+    }
+    .bubble6-first-page{
+        bottom:500px !important;
+    }
+    .bubble7-first-page{
+        bottom:600px !important;
+    }
+    .bubble5-first-page{
+        bottom:800px !important;
+    }
+    .bubble19{
+        bottom:450px !important;
+    }
+    .second-anchor{
+        margin-left:2500px !important;
+    }
+}
+@media(min-width:1200px){
+    .social-links{
+        top : 50px !important;
+    }
+    .sub-menu li a{
+         font-size: 26px !important;
+         padding : 5px !important;
+    }
+    .app-iot-img{
+        width:75% !important;
+        margin:auto !important;
+        margin-right: 0px !important;
+    }
+    .app-dev-img{
+        width:75% !important;
+        margin:auto !important;
+        margin-right: 0px !important;
+    }
+    .app-school-img{
+        width:75% !important;
+        margin:auto !important;
+        margin-right: 0px !important;
+    }
+   .app-design-img{
+        width:75% !important;
+        margin:auto !important;
+        margin-right: 0px !important;
+    }
+    .bubble20{
+        bottom:800px !important;
+        line-height: 1.0 !important;
+    }
+    .text-app-design{
+        font-size: 34px !important;
+         line-height: 1.0 !important;
+    }
+    .text-app-iot{
+        font-size: 34px !important;
+         line-height: 1.0 !important; 
+    }
+    .text-app-dev{
+        font-size: 34px !important;
+        line-height: 1.0 !important;
+    }
+    .text-app-school{
+        font-size: 34px !important;
+        line-height: 1.0 !important;
+    }
+}
+@media (min-width: 1600px) { 
+    .social-links{
+        top : 50px !important;
+    }
+    .sub-menu li a{
+         font-size: 30px !important;
+         padding : 10px !important;
+    }
+    .text-app-dev{
+       margin:auto 0px !important;
+        font-size: 48px !important;
+         line-height: 1.0 !important;
+       
+    }
+    .app-dev-img{
+            margin: auto 0 auto auto !important;
+    }
+    .text-app-design{
+       margin:auto 0px !important;
+        font-size: 48px !important;
+         line-height: 1.0 !important;
+        
+    }
+    .third-anchor{
+        margin-left:4800px !important;
+    }
+    .text-app-iot{
+        margin:auto 0px !important;
+        font-size: 48px !important;
+        line-height: 1.0 !important; 
+               
+    }
+    .fourth-anchor{
+        margin-left:7400px !important;
+    }
+    .text-app-school{
+        margin:auto 0px !important;
+        font-size: 48px !important;
+         line-height: 1.0 !important;
+        
+       
+    }
+    .bubble18{
+        bottom:700px !important;
+        margin-left:400px !important
+    }
+    .bubble6-first-page{
+        bottom:500px !important;
+    }
+    .bubble7-first-page{
+        bottom:800px !important;
+    }
+    .bubble5-first-page{
+        bottom:800px !important;
+    }
+    .bubble19{
+        bottom:350px !important;
+    }
+    .second-anchor{
+        margin-left:2700px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    background: white;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+a:focus {
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    height: 100% !important;
+    width: auto !important;
+    max-width: none !important;
+}
+
+h1,
+h2 {
+    color: #238acb;
+}
+
+.scroll {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.front {
+    top: 0px;
+    width: 12000px;
+    display: flex;
+    align-items: center;
+    height:100vh;
+    pointer-events:none;        
+
+}
+
+.text {
+    z-index: 500;
+    top: 150px;
+    width: 6000px;
+    height: 400px;
+}
+
+.intro {
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    padding-right: 50px;
+}
+
+.page {
+    position: absolute;
+    top: 0px;
+    width: 500px;
+    background: white;
+    padding: 10px 30px;
+    border: 1px #eee solid;
+}
+.bubble-image{
+    
+}
+
+
+.text-app-dev {
+    display: block;
+    margin: auto 0;
+    height: 138px;
+    font-family: Rokkitt, serif;
+    font-size: 48px;
+    line-height: 0.96;
+    color: #000000;
+    z-index: 700;
+}
+.app-dev-img{
+    display: block;
+    margin: auto 0 auto auto;
+}
+.app-dev {
+    
+    height: auto;
+    z-index: 200;
+}
+
+.learn-More {
+    font-family: Sintony, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #3abaeb;
+    position: relative;
+    cursor: pointer !important;
+    z-index: 701;
+ 
+   }
+.learn-More:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #3abaeb;
+    -webkit-transition: width 250ms ease-in-out;
+    -moz-transition: width 250ms ease-in-out;
+    -o-transition: width 250ms ease-in-out;
+    transition: width 250ms ease-in-out;
+}
+.learn-More .lined:after{
+     width: 100%;  
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* remove scrollbar space */
+    background: transparent;
+    /* optional: just make scrollbar invisible */
+}
+
+
+/* optional: show position indicator in red */
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+/* Background Layer */ 
+.bubble13{
+    margin-left:800px ;
+    bottom: 150px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    -webkit-filter: blur(3px);
+}
+.bubble9{
+    margin-left:1000px ;
+    bottom: 500px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    -webkit-filter: blur(3px);
+}
+.bubble7-first-page {
+    margin-left: 400px;
+    bottom: 800px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    
+}
+.bubble14 {
+    margin-left: 1500px;
+    bottom: 850px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    
+}
+.bubble15 {
+    margin-left: 100px;
+    bottom: 150px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    
+}
+.bubble16 {
+    margin-left: 1200px;
+    bottom: 200px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    
+}
+.bubble {
+    line-height: 0;
+    z-index: 0;
+    width: 3000px;
+    
+    left: 0px;
+    position: fixed;
+    
+}
+
+.bubble1 {
+    line-height: 0;
+    z-index: 0;
+    width: 2000px;
+    bottom: 0;
+    top: -400px;
+    margin-left: -100px;
+    position: fixed;
+    
+}
+
+.bubble2 {
+    line-height: 0;
+    z-index: 0;
+    width: 2000px;
+   
+    margin-left: 1500px;
+    position: fixed;
+    
+}
+
+.bubble3 {
+    line-height: 0;
+    z-index: 0;
+    width: 2000px;
+    bottom: 0;
+    top: -100px;
+    margin-left: 1500px;
+    position: fixed;
+    
+}
+.bubble21 {
+    margin-left: 200px;
+    bottom: 700px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    
+}
+.bubble22 {
+    margin-left: 2000px;
+    bottom: 800px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    
+}
+.bubble23 {
+    margin-left: 1900px;
+    bottom: 500px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    
+}
+
+
+
+
+
+/* Middle Layer */
+
+.bubble3-first-page {
+    margin-left: 1650px;
+    bottom: 250px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+
+.bubble4-first-page {
+    margin-left: 1200px;
+    bottom: 800px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+
+.bubble5-first-page {
+    margin-left: 1800px;
+    bottom: 800px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+
+.bubble6-first-page {
+    margin-left: 100px;
+    bottom: 500px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+
+
+.bubble8-first-page {
+    margin-left: 500px;
+    bottom: 100px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+
+.bubble10{
+    margin-left:2600px ;
+    bottom: 100px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+
+.bubble24{
+    margin-left:3600px ;
+    bottom: 100px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+.bubble17{
+    margin-left:1200px ;
+    bottom: 80px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+.bubble11{
+    margin-left:3600px ;
+    bottom: 350px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+.bubble12-first-page{
+    margin-left:870px ;
+    bottom: 650px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+.bubble18{
+    margin-left:400px ;
+    bottom: 700px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+.bubble19{
+    margin-left:2800px ;
+    bottom: 350px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+.bubble20{
+    margin-left:2200px ;
+    bottom: 300px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+
+
+.nav-icon {
+    position: absolute !important;
+    float: none !important;
+    margin-left: 95% !important;
+    color: white;
+}
+
+
+
+.logo-front {
+    z-index: 9999;
+    top: 0px;
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    -webkit-animation-duration: 3s;
+     
+    
+}
+.loader-image{
+    z-index: 9998;
+    height:100%;
+    top:0px;
+    position:fixed;
+    width:100%;
+    -webkit-animation-duration: 3s;
+    
+   
+}
+.logo {
+    display:block;
+    margin:auto;
+    
+}
+
+.first-anchor {
+    position: fixed;
+    margin-left: 10px;
+    top: 100px;
+    width: 20px;
+}
+
+.app-design {
+    
+    height: auto;
+    z-index: 1;
+    pointer-events:none;        
+
+}
+.app-design-img{
+    display: block;
+    margin: auto 0 auto auto;
+    
+}
+.text-app-design {
+    display: block;
+    margin: auto 0;
+    
+    
+    height: 138px;
+    font-family: Rokkitt, sans-serif;
+    font-size: 48px;
+    line-height: 0.96;
+    color: #000000;
+    z-index: 1;
+    pointer-events:none;        
+
+}
+
+.second-anchor {
+    position: fixed;
+    margin-left: 2700px;
+    top: 100px;
+    width: 20px;
+}
+
+.third-anchor {
+    position: fixed;
+    margin-left: 5000px;
+    top: 100px;
+    width: 20px;
+}
+.app-iot-img{
+    display: block;
+    margin: auto 0 auto auto;
+    
+}
+.app-iot {
+    
+    
+  
+    z-index: 200;
+    pointer-events:none;        
+
+}
+
+.text-app-iot {
+    
+    display: block;
+    margin: auto 0;
+    height: 138px;
+    font-family: Rokkitt, sans-serif;
+    font-size: 48px;
+    line-height: 0.96;
+    color: #000000;
+    pointer-events:none;
+}
+
+.fourth-anchor {
+    position: fixed;
+    margin-left: 7500px;
+    top: 100px;
+    width: 20px;
+}
+
+.app-school {
+    
+    height: auto;
+    margin-top: 0px;
+    pointer-events:none;
+}
+
+.app-school-img{
+     display: block;
+    margin: auto 0 auto auto;
+}
+.text-app-school {
+    display: block;
+    margin: auto 0;
+    height: 138px;
+    font-family: Rokkitt, sans-serif;
+    font-size: 48px;
+    line-height: 0.96;
+    color: #000000;
+    z-index: 200;
+    pointer-events:none;
+}
+
+.active-nav {
+    color: #f31c31 !important;
+    
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.fifth-anchor {
+    position: fixed;
+    margin-left: 8000px;
+    top: 100px;
+    width: 20px;
+}
+
+.app-service {
+    margin-left: 7800px;
+    position: absolute;
+    float: right;
+    height: auto;
+    margin-top: 0px;
+    pointer-events:none;
+}
+
+.text-app-service {
+    position: absolute;
+    margin-left: 8400px;
+    margin-top: -120px;
+    height: 138px;
+    font-family: Rokkitt, sans-serif;
+    font-size: 48px;
+    line-height: 0.96;
+    color: #000000;
+    z-index: 200;
+    pointer-events:none;
+}
+
+.application-dev-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: #3dbbfe;
+    margin-left: -15px;
+    position: fixed;
+    z-index: 500;
+    bottom: 10px;
+    visibility: hidden;
+}
+
+.app-dev-heading {
+    position: absolute;
+    font-family: Rokkitt , serif;
+    font-size: 48px;
+    line-height: 0.96;
+    text-align: center;
+    color: #ffffff;
+    top:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-application-dev-page {
+    font-family: Sintony, sans-serif;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    margin-left: 32vw;
+    top: 260px;
+}
+
+.application-design-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: #de153b;
+    margin-left: -15px;
+    position: fixed;
+    z-index: 500;
+    bottom: 10px;
+    visibility: hidden;
+}
+
+.app-design-heading {
+    position: relative;
+    font-family: Rokkitt , serif;
+    font-size: 48px;
+    line-height: 0.96;
+    text-align: center;
+    color: #ffffff;
+    top:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-application-design-page {
+    font-family: Sintony, sans-serif;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top:210px;
+    display:flex;
+    left:35vw;
+    
+}
+
+.application-iot-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: #e17200;
+    margin-left: -15px;
+    position: fixed;
+    z-index: 500;
+    bottom: 10px;
+    visibility: hidden;
+}
+
+.app-iot-heading {
+    position: relative;
+    font-family: Rokkitt , serif;
+    font-size: 48px;
+    line-height: 0.96;
+    text-align: center;
+    color: #ffffff;
+    top:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-application-iot-page {
+    font-family: Sintony, sans-serif;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top:110px;
+    display:flex;
+    left:35vw;
+}
+
+.bubble30{
+    margin-left:2600px;
+    bottom:900px;
+    z-index:0;
+    position:fixed;
+    width:5000px;
+}
+.bubble31{
+    margin-left:1000px;
+    bottom:200px;
+    z-index:0;
+    position:fixed;
+    width:5000px;
+}
+.bubble32{
+    margin-left:1400px;
+    bottom:400px;
+    z-index:0;
+    position:fixed;
+    width:5000px;
+}
+.bubble33{
+    margin-left:2000px;
+    bottom:100px;
+    z-index:0;
+    position:fixed;
+    width:5000px;
+}
+.bubble34{
+    margin-left:2500px;
+    bottom:250px;
+    z-index:0;
+    position:fixed;
+    width:5000px;
+}
+.bubble35{
+    margin-left:2200px;
+    bottom:700px;
+    z-index:0;
+    position:fixed;
+    width:5000px;
+}
+.bubble36{
+    margin-left:1800px;
+    bottom:550px;
+    z-index:0;
+    position:fixed;
+    width:5000px;
+}
